@@ -14,6 +14,6 @@ for word in match_pattern:
     count = frequency.get(word, 0)
     frequency[word] = count + 1
 
-frequency_list = frequency.keys()
+frequency_list = sorted(frequency.keys())
 for words in frequency_list:
     print(words, frequency[words])
