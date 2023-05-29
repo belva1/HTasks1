@@ -16,4 +16,12 @@ def file(file_name):
 print(file("C:/Users/HP/Documents/a-level/MODULE1/strings.txt"))
 
 
+# output
+# 2 4 5;3 2 True
+# 3 2 1;2 0 True
+# 6 5 2 1 2;3 1 True
+# 7 3;3 4 False
+# 4 6 8;6 0 True
+
+
     
