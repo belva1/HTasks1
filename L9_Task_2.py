@@ -4,7 +4,7 @@
 # print(" " * 1 + "# "*3 + " " *0)
 # print(" " * 0 + "# "*4 + " " *(-1))
 
-def draw_triangle(h):
+def draw_brilliant(h):
     s = input("Please enter a symbol: ")
     if h < 0:
         print("The number must be positive.")
@@ -16,4 +16,4 @@ def draw_triangle(h):
         for i in list(range(h))[::-1]:
             print(" " * (h - 1 - i) + f"{s} " * (i + 1) + " " * (h - 2 - i))
 
-draw_triangle(5)
+draw_brilliant(5)
