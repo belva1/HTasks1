@@ -1,6 +1,7 @@
 a = 'abc'
 b = (10, 20, 30)
 
+
 def min_range(a,b):
       return range(len(sorted((a,b), key=len)[0]))
 

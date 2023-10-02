@@ -13,7 +13,7 @@ def draw_triangle(h):
     else:
         for i in range(h - 1):
             print(" " * (h - 1 - i) + f"{s} " * (i + 1) + " " * (h - 2 - i))
-        for i in list(range(h))[::-1]:
-            print(" " * (h - 1 - i) + f"{s} " * (i + 1) + " " * (h - 2 - i))
+        # for i in list(range(h))[::-1]:
+        #     print(" " * (h - 1 - i) + f"{s} " * (i + 1) + " " * (h - 2 - i))
 
 draw_triangle(5)
